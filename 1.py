@@ -1,4 +1,4 @@
-X = [l.strip() for l in open('1.in')]
+X = [l.strip() for l in open('day1.txt')]
 
 Q = []
 for elf in ('\n'.join(X)).split('\n\n'):
