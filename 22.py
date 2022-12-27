@@ -1,11 +1,10 @@
-
 #!/usr/bin/python3
 import sys
 from decimal import Decimal
 import math
 from copy import deepcopy
 from collections import defaultdict, deque
-infile = sys.argv[1] if len(sys.argv)>1 else 'input22.txt'
+infile = sys.argv[1] if len(sys.argv)>1 else '22.in'
 data = open(infile).read()
 lines = [x for x in data.split('\n')]
 
