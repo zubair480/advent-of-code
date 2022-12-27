@@ -4,7 +4,7 @@ from decimal import Decimal
 import math
 from copy import deepcopy
 from collections import defaultdict, deque
-infile = sys.argv[1] if len(sys.argv)>1 else '22.in'
+infile = sys.argv[1] if len(sys.argv)>1 else 'day22.txt'
 data = open(infile).read()
 lines = [x for x in data.split('\n')]
 
