@@ -6,7 +6,7 @@ def score(c):
 
 
 p1 = 0
-for line in open('3.in'):
+for line in open('day3.txt'):
     x = line.strip()
     assert len(x)%2 == 0
     y,z = x[:len(x)//2], x[len(x)//2:]
@@ -17,7 +17,7 @@ for line in open('3.in'):
 print(p1)
 
 p2 = 0
-X = [line for line in open('3.in')]
+X = [line for line in open('day3.txt')]
 i = 0
 while i < len(X):
     for c in X[i]:
