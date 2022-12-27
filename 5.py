@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import sys
 from copy import deepcopy
-infile = sys.argv[1] if len(sys.argv)>1 else '5.in'
+infile = sys.argv[1] if len(sys.argv)>1 else 'day5.txt'
 data = open(infile).read()
 lines = [x for x in data.split('\n')]
 
