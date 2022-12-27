@@ -75,7 +75,7 @@ int main() {
   map<string, int> INDEX_OF;
   vector<string> ORDER;
   ll nonzero = 0;
-  // Convenient to have the start position have index 0
+  // Convenient to have the start position have index 0 so we can proceed further
   for(auto& p : INPUT) {
     if(p.first == "AA") {
       INDEX_OF[p.first] = ORDER.size();
