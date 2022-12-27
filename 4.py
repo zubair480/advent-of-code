@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import sys
-infile = sys.argv[1] if len(sys.argv)>1 else '4.in'
+infile = sys.argv[1] if len(sys.argv)>1 else 'day4.txt'
 data = open(infile).read().strip()
 lines = [x.strip() for x in data.split('\n')]
 p1 = 0
